@@ -42,10 +42,11 @@ h5{
 
 p{  opacity:0;
     color:#4CA7B0;
-    border-bottom-style:groove;
+
     position:relative;
     float:left;
     display:inherit;
+
 }
 
 button{

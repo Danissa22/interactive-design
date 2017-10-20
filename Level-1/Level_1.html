@@ -7,6 +7,14 @@
 <link rel="stylesheet" href="Level-1.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="script-SlideToggle.js"></script>
+<script>
+$('.Level-1').click(function(){
+    $(this).parents('.section').find('.content').slideToggle();
+});
+
+</script>
+
+
 </head>
     <body>
 
@@ -27,12 +35,7 @@
 
 
 
-<script>
-$('.Level-1').click(function(){
-    $(this).parents('.section').find('.content').slideToggle();
-});
 
-</script>
 
 
     </body>

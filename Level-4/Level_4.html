@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
 
-<head><title>Level 4</title></head>
+<head><title>Level 4</title>
+
+  <link rel="stylesheet" href="Level_4.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script-SlideToggle.js"></script>
+
+
+
+</head>
     <body>
-    
-    
+      <div class="section">
+
+    <div class="Level-4"><h2>Next up, Level 4<h2></div>
+
     <p>From 1 to 5</p>
-     <ul>
-   <li><a href="Level4-1.html">Level 1-1</a></li> 
+          <div class="content">
+     <ul id="shape-para">
+  <span class="top">
+     <li><a href="Level4-1.html">Level 1-1</a></li>
     <li><a href="Level4_2.html">Level 4-2</a></li>
+  </span>
     <li><a href="Level4_3.html">Level 4-3</a></li>
     <li><a href="Level4_4.html">Level 4-4</a></li>
     <li><a href="Level4_5.html">Level 4-5</a></li>
-    
-    </ul>       
-    
+    <span id="square"></span>
+    </ul>
+
+        <script>
+        $('.Level-4').click(function(){
+            $(this).parents('.section').find('.content').slideToggle();
+        });
+
+        </script>
+
     </body>
 
 

@@ -35,3 +35,11 @@ a:hover{
     background-color: black;
 
   }
+
+.one{
+  	opacity: 0;
+
+}
+.one:hover{
+  opacity: 1;
+}

@@ -51,3 +51,11 @@ a:hover{
   background-color: black;
 
 }
+
+.HomePage, a{
+  margin-bottom:100px;
+  border-color:#742127;
+  color:#AA1A1A;
+  background-color:#1C253F;
+
+}

@@ -55,3 +55,10 @@ border-radius:13px;
   opacity:0;
 	-webkit-transform: scale(2.25);
 }
+.HomePage, a{
+  margin-bottom:100px;
+  border-color:#742127;
+  color:#AA1A1A;
+  background-color:#1C253F;
+
+}

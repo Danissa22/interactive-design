@@ -1,6 +1,9 @@
 body{
  background-color:#008373;
    background-image: url(Dryad-Abstracts-04.svg), none;
+   background-attachment:scroll;
+   background-position:right;
+
 }
 
 #containter{
@@ -102,11 +105,10 @@ ul{
 
 #Help{
   list-style-position: inside;
-  padding-bottom: 14px;
   color:#2BB673;
   height:5px;
-  width:13px;
-  font-size:30px;
+  margin-bottom:40px;
+  font-size:20px;
 }
 
 li a {
@@ -121,12 +123,13 @@ li a:hover {
     color: #B9FC4F;
 }
 .AbstractDryad{
-  image-orientation:center;
+  image-orientation:;
   image-resolution: from-image;
 }
 
 img {
+
     max-width: 100%;
     height: auto;
-    image-orientation: center;
+    image-orientation: right;
 }

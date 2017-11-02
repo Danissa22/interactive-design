@@ -1,0 +1,121 @@
+body{
+ background-color:#008373;
+}
+
+#containter{
+  position: absolute;
+  padding-bottom:13px;
+  margin-top:40px;
+   left: 0;
+
+}
+
+.rect1{
+  border-radius: 15px 50px 30px 5px;
+     background: #01433F;
+     padding: 20px;
+     width: 150px;
+     height: 40px;
+      text-align:justify;
+    margin-top: 30px;
+
+}
+
+.rect2{
+  border-radius: 15px 50px 30px 5px;
+     background: #01433F;
+     padding: 20px;
+     width: 150px;
+     height: 40px;
+     text-align:justify;
+     margin-top: 30px;
+}
+
+.rect3{
+  border-radius: 15px 50px 30px 5px;
+     background: #01433F;
+     padding: 20px;
+     width: 150px;
+     height: 40px;
+      text-align:justify;
+    margin-top: 30px;
+}
+
+.rect4{
+  border-radius: 15px 50px 30px 5px;
+     background: #01433F;
+     padding: 20px;
+     width: 150px;
+     height: 40px;
+      text-align:justify;
+      margin-top: 30px;
+}
+
+h1{
+  color:#B9FC4F;
+  font-family:fantasy;
+  font-style:normal;
+  letter-spacing:5px;
+
+}
+
+ul{
+
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+
+}
+
+#About{
+   list-style-position: inside;
+   padding-bottom: 14px;
+   color:#2BB673;
+   height:12px;
+   width:130px;
+   font-size:30px;
+
+}
+
+#Event{
+   list-style-position: inside;
+   padding-bottom: 14px;
+   color:#2BB673;
+   height:120px;
+   width:130px;
+   font-size:30px;
+
+}
+
+#Contact{
+   list-style-position: inside;
+   padding-bottom: 14px;
+   color:#2BB673;
+   height:12px;
+   width:130px;
+   font-size:30px;
+
+
+}
+
+#Help{
+  list-style-position: inside;
+  padding-bottom: 14px;
+  color:#2BB673;
+  height:5px;
+  width:13px;
+  font-size:30px;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    color:#2BB673;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #B9FC4F;
+}

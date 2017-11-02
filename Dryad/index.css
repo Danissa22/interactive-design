@@ -1,5 +1,6 @@
 body{
  background-color:#008373;
+   background-image: url(Dryad-Abstracts-04.svg), none;
 }
 
 #containter{
@@ -118,4 +119,14 @@ li a {
 
 li a:hover {
     color: #B9FC4F;
+}
+.AbstractDryad{
+  image-orientation:center;
+  image-resolution: from-image;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    image-orientation: center;
 }

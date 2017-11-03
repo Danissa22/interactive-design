@@ -18,6 +18,8 @@ body{
   	background: #2BB673;
   	position: relative;
     text-align:justify;
+    border-style:solid #1A6665;
+
 
 }
 .hexagon:before {
@@ -29,7 +31,7 @@ body{
 	height: 0;
 	border-left: 500px solid transparent;
 	border-right: 500px solid transparent;
-	border-bottom: 250px solid #2BB673;
+	border-bottom: 250px solid #1A6665;
 }
 .hexagon:after {
 	content: "";
@@ -40,7 +42,15 @@ body{
 	height: 0;
 	border-left: 500px solid transparent;
 	border-right: 500px solid transparent;
-	border-top: 250px solid #2BB673;
+	border-top: 250px solid #1A6665;
+}
+
+p{
+  font-size:24px;
+  font-weight:100;
+  font-size-adjust:auto;
+  text-align:justify;
+  text-indent:inherit;
 }
 button{
 

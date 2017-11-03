@@ -37,6 +37,7 @@ body{
 
 .rect3{
   border-radius: 15px 50px 30px 5px;
+  border-right:12px;
      background: #01433F;
      padding: 20px;
      width: 150px;
@@ -60,6 +61,7 @@ h1{
   font-family:fantasy;
   font-style:normal;
   letter-spacing:5px;
+  font-size: 30px;
 
 }
 
@@ -79,6 +81,7 @@ ul{
    height:12px;
    width:130px;
    font-size:30px;
+   font-weight: bold;
 
 }
 
@@ -89,6 +92,7 @@ ul{
    height:120px;
    width:130px;
    font-size:30px;
+    font-weight: bold;
 
 }
 
@@ -99,6 +103,7 @@ ul{
    height:12px;
    width:130px;
    font-size:30px;
+    font-weight: bold;
 
 
 }
@@ -109,6 +114,7 @@ ul{
   height:5px;
   margin-bottom:40px;
   font-size:20px;
+   font-weight: bold;
 }
 
 li a {

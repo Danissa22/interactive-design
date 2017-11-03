@@ -18,7 +18,11 @@ body{
   	background: #2BB673;
   	position: relative;
     text-align:justify;
-    border-style:solid #1A6665;
+    border-style:solid;
+    border-color: #1A6665;
+    border-left-width: 20px;
+    border-right-width:20px;
+    border-top-width:20px;
 
 
 }
@@ -31,7 +35,8 @@ body{
 	height: 0;
 	border-left: 500px solid transparent;
 	border-right: 500px solid transparent;
-	border-bottom: 250px solid #1A6665;
+	border-bottom: 250px solid #2BB673;
+  border-top-width:20px;
 }
 .hexagon:after {
 	content: "";
@@ -42,9 +47,12 @@ body{
 	height: 0;
 	border-left: 500px solid transparent;
 	border-right: 500px solid transparent;
-	border-top: 250px solid #1A6665;
+	border-top: 250px solid #2BB673;
 }
-
+.para{
+  margin-left:14px;
+  margin-right:14px;
+}
 p{
   font-size:24px;
   font-weight:100;

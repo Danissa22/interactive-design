@@ -23,6 +23,12 @@ body{
     margin-top: 40px;
     margin-left: 560px;
 
+
+
+}
+
+.rect1:hover{
+  position: fixed;
 }
 
 .rect2{
@@ -166,4 +172,13 @@ img {
     max-width: 100%;
     height: auto;
     image-orientation: right;
+}
+#Protest{
+  image-orientation:center;
+  
+
+}
+
+#Board{
+  text-align:center;
 }

@@ -24,11 +24,16 @@ body{
     margin-left: 560px;
 
 
+    -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: move;
+    animation-duration: 4s;
+
 
 }
 
 .rect1:hover{
-  position: fixed;
+  position:relative;
 }
 
 .rect2{
@@ -40,6 +45,16 @@ body{
      text-align:justify;
      margin-top: 50px;
      margin-left: 400px;
+
+     -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
+     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+     animation-name: move;
+     animation-duration: 4s;
+
+}
+
+.rect2:hover{
+  position:relative;
 }
 
 .rect3{
@@ -52,6 +67,16 @@ body{
       text-align:justify;
     margin-top: 30px;
     margin-left: 600px;
+
+    -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: move;
+    animation-duration: 4s;
+
+}
+
+.rect3:hover{
+      position:relative;
 }
 
 .rect4{
@@ -62,7 +87,17 @@ body{
      height: 40px;
     text-align:justify;
     margin-top: 30px;
-      margin-left: 400px;
+    margin-left: 400px;
+
+    -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: move;
+    animation-duration: 4s;
+
+}
+
+.rect4:hover{
+      position:relative;
 }
 
 h1{
@@ -101,7 +136,7 @@ ul{
    height:120px;
    width:130px;
    font-size:30px;
-    font-weight: bold;
+  font-weight: bold;
 
 }
 
@@ -112,7 +147,7 @@ ul{
    height:12px;
    width:130px;
    font-size:30px;
-    font-weight: bold;
+  font-weight: bold;
 
 
 }
@@ -140,32 +175,31 @@ li a:hover {
 
 
 .Show{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #1A6665;
     padding: 20px;
     cursor: pointer;
 }
 
 .Show:hover {
-    background: yellow;
+    background: #86A136;
 }
 
 .content {
     padding: 20px;
     display: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #1A6665;
 }
 
 
 
 
 
-
-
-
-.AbstractDryad{
+.DryadBackground{
   image-orientation:;
   image-resolution: from-image;
 }
+
+
 
 img {
 
@@ -173,12 +207,53 @@ img {
     height: auto;
     image-orientation: right;
 }
+
+.vl {
+    border-left: 6px solid #669933;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.vl2 {
+    border-left: 6px solid #669933;
+    height: 1000px;
+    position: absolute;
+    left: 40%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.vl3 {
+    border-left: 6px solid #669933;
+    height: 1000px;
+    position: absolute;
+    left: 45%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.vl4 {
+    border-left: 6px solid #669933;
+    height: 1000px;
+    position: absolute;
+    left: 35%;
+    margin-left: -3px;
+    top: 0;
+}
+
+
 #Protest{
   image-orientation:center;
-  
+
 
 }
 
 #Board{
   text-align:center;
+  margin-top:1000px;
+  font-size:30px;
+  color:
 }

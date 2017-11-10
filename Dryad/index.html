@@ -13,9 +13,11 @@
 
 </div>
 
-<div class="header"><h1>Dryad Rights Project</h1></div>
+
 
 <div class="DryadBackground">
+
+
   <div class="vl"></div>
   <div class="vl2"></div>
   <div class="vl3"></div>
@@ -24,13 +26,15 @@
 
 </div>
 
+<div class="header"><h1>Dryad Rights Project</h1></div>
 
 
 
 <ul id=containter>
-
-<div class="rect1"><li id="About"><button onclick="myFunction()">About</button></li></div>
 <div class="Show">
+<div class="rect1"><li id="About">
+  <button onclick="myFunction()"><div class="title">About</div></button></li></div>
+
 <div class="content">
 
   <p> Dryads are a certain group of people that are half-tree and half-people
@@ -48,9 +52,11 @@
 </div>
 </div>
 
-
-<div class="rect2"><li id="Event"><button onclick="myFunction()">Event</button></li></div>
-<div class="Show">
+  <div class="Show">
+<div class="rect2"><li id="Event">
+  <button onclick="myFunction()">
+    <div class="title">Event</div>
+  </button></li></div>
 <div class="content">
 
   <h2>Earth Day’s Rally </h2>
@@ -60,11 +66,18 @@
   <li>Time: 2:00pm</li>
   <li>Day: Sunday</li>
 </ul>
+
+
 </div>
 </div>
 
-<div class="rect3"><li id="Contact"><button onclick="myFunction()">Contact</button><li></div>
   <div class="Show">
+<div class="rect3"><li id="Contact">
+  <button onclick="myFunction()">
+    <div class="title">Contact</div></button>
+  <li></div>
+
+
 <div class="content">
   <ul>
 
@@ -76,9 +89,10 @@
 
 </div>
 
-
-<div class="rect4"><li id="Help"><button onclick="myFunction()">How to help</button></li></div>
 <div class="Show">
+<div class="rect4"><li id="Help">
+  <button onclick="myFunction()">
+    <div class="title">How to help</div></button></li></div>
 <div class="content">
 
   <p>Join the Rally to Help Protect
@@ -100,10 +114,9 @@
 
 <script>
 
-function myFunction() {
-   var element = document.getElementById("content");
-   element.classList.toggle("Show");
-}
+$('.title').click(function(){
+    $(this).parents('.week').find('.content').slideToggle();
+});
 
 </script>
 

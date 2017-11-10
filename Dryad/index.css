@@ -6,6 +6,17 @@ body{
 
 }
 
+.header{
+   height: 300px;
+   background-color: #297B48;
+  position: relative;
+  border-bottom-left-radius: 50% 20%;
+ border-bottom-right-radius: 50% 20%;
+ border-top-left-radius:5% 5%;
+ border-top-right-radius:5% 5%;
+}
+
+
 #containter{
   position: absolute;
   padding-bottom:13px;
@@ -100,12 +111,13 @@ body{
       position:relative;
 }
 
+
 h1{
   color:#B9FC4F;
   font-family:fantasy;
   font-style:normal;
   letter-spacing:5px;
-  font-size: 30px;
+  font-size: 40px;
 
 }
 
@@ -199,20 +211,8 @@ button:hover{
 }
 
 
-li a {
-    display: block;
-    width: 60px;
-    color:#2BB673;
-    padding: 8px 16px;
-    text-decoration: none;
-}
 
-li a:hover {
-    color: #B9FC4F;
-}
-
-
-.Show{
+.mystyle{
   width: 100%;
   padding: 25px;
   background-color: #2BB673;
@@ -222,12 +222,19 @@ li a:hover {
 }
 
 
+.title {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
 .content {
     padding: 20px;
     display: none;
-    border-bottom: 1px solid #1A6665;
+    border-radius:;
+    border-color:;
+    border-bottom: 1px solid black;
 }
-
 
 
 
@@ -235,16 +242,11 @@ li a:hover {
 .DryadBackground{
   image-orientation:;
   image-resolution: from-image;
+  padding-bottom:30px;
 }
 
 
 
-img {
-
-    max-width: 100%;
-    height: auto;
-    image-orientation: right;
-}
 
 .vl {
     border-left: 6px solid #669933;

@@ -37,18 +37,17 @@ position: relative;
     text-align:justify;
     margin-top: 40px;
     margin-left: 560px;
+        -webkit-transition-timing-function: ease;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
 
-
-    -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: move;
-    animation-duration: 4s;
 
 
 }
 
 .rect1:hover{
   position:relative;
+  width: 300px;
 }
 
 .rect2{
@@ -60,16 +59,16 @@ position: relative;
      text-align:justify;
      margin-top: 50px;
      margin-left: 400px;
-
-     -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
-     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-     animation-name: move;
-     animation-duration: 4s;
+         -webkit-transition-timing-function: ease;
+     -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+     transition: width 2s;
 
 }
 
 .rect2:hover{
   position:relative;
+    width: 300px;
+
 }
 
 .rect3{
@@ -82,16 +81,15 @@ position: relative;
       text-align:justify;
     margin-top: 30px;
     margin-left: 600px;
-
-    -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: move;
-    animation-duration: 4s;
+        -webkit-transition-timing-function: ease;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
 
 }
 
 .rect3:hover{
       position:relative;
+      width: 300px;
 }
 
 .rect4{
@@ -103,23 +101,22 @@ position: relative;
     text-align:justify;
     margin-top: 30px;
     margin-left: 400px;
-
-    -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: move;
-    animation-duration: 4s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
 
 }
 
 .rect4:hover{
       position:relative;
+        width: 300px;
 }
 
 
 h1{
   color:#B9FC4F;
   text-align:center;
-  font-family:fantasy;
+  font-family:Arial;
   font-style:normal;
   letter-spacing:5px;
   font-size: 60px;

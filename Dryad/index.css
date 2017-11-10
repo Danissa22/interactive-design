@@ -67,6 +67,7 @@ position: relative;
 
 .rect2:hover{
   position:relative;
+    border-bottom-left-radius: 2em;
     width: 300px;
 
 }
@@ -210,6 +211,7 @@ button:hover{
     margin: 0;
     opacity: 1;
     transition: 0s
+
 }
 
 

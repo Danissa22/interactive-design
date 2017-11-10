@@ -1,3 +1,25 @@
+body{
+ background-color:#008373;
+   background-attachment:scroll;
+   background-position:right;
+
+}
+ body:onload{
+
+ }
+
+
+
+
+.DryadBackground:onload{
+
+}
+
+
+
+
+
+
 .content1 {
   display: block;
   width: 400px;
@@ -6,17 +28,16 @@
   border-radius: 30px;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: :40%;
-  text-align:right;
   margin-left:600px;
   text-decoration-line: none;
   padding-bottom:20px;
   padding-left:20px;
+  border-radius:solid 2px #358569;
+    display:none;
 
 }
 
-.content:p{
 
-}
 
 
 .content2 {
@@ -28,6 +49,7 @@
   text-align:right;
   margin-left:300px;
   text-decoration-line: none;
+    display:none;
 
 }
 
@@ -40,8 +62,11 @@
   background: #1D6E51;
   border-radius: 30px;
   text-align:right;
-  margin-left:600px;
+  list-style:none;
+  margin-top:13px;
+  margin-left:680px;
   text-decoration-line: none;
+    display:none;
 }
 
 
@@ -51,21 +76,16 @@
   height: 200px;
   background: #1D6E51;
   border-radius: 30px;
-  text-align:left;
-  margin-left:600px;
+  text-align:right;
+  margin-left:400px;
   text-decoration-line: none;
+    display:none;
 
 }
 
 
 
 
-body{
- background-color:#008373;
-   background-attachment:scroll;
-   background-position:right;
-
-}
 
 
 
@@ -81,6 +101,7 @@ position: relative;
  padding-bottom:40px;
  margin-top:30px;
  font-weight:lighter;
+ display:none;
 }
 
 
@@ -106,8 +127,18 @@ position: relative;
    font-weight: bold;
 
 }
- #Para{
+ #Para1{
 
+text-align:left;
+font-size:15px;
+margin-top:12px;
+
+ }
+
+ #Para2{
+ text-align:right;
+ font-size:15px;
+ margin-right:20px;
  }
 
 
@@ -119,8 +150,8 @@ position: relative;
      height: 40px;
     text-align:justify;
     margin-top: 40px;
-    margin-left: 560px;
-        -webkit-transition-timing-function: ease;
+    margin-left: 660px;
+    -webkit-transition-timing-function: ease;
     -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
     transition: width 2s;
 
@@ -171,7 +202,7 @@ position: relative;
 
 
 .rect3{
-  border-radius: 15px 50px 30px 5px;
+  border-radius: 5px 50px 30px 50px;
   border-right:12px;
      background: #01433F;
      padding: 20px;

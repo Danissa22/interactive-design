@@ -3,19 +3,17 @@
 <head>
   <title>Dryad Rights Project</title>
   <link rel="stylesheet" type="text/css" href="test2.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <meta charset="utf-8">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
-<body>
+<body onload="myFunction()">
 
   <div id="rectangle">
 
   </div>
 
 
-
-  <div class="DryadBackground">
+  <div class="DryadBackground" onloadstart="myFunction()">
 
 
     <div class="vl"></div>
@@ -36,13 +34,13 @@
 <div class="rect1"><li id="About">
   <button class="toggle1"><div class="title">About</div></button></li></div>
 <div class="content1">
-  <span id="Para"><p>Dryads are a certain group of people that are half-tree and half-people
+  <p id="Para1">Dryads are a certain group of people that are half-tree and half-people
   despite the popular belief that the dryads are women even though it’s the majority.
   Dryads live in homes populated by trees such as places like the rainforest,woodlands and etc.
   Dryads help the enviroment by stablizing greenhouses gases and  asborb carbon
   dioxide and potentially harmful gasses, such as sulfur dioxide, carbon monoxide,
   from the air and release oxygen.</p>
-  <p> Their perscene of one brings oxygen to four people.
+  <p id="Para2"> Their perscene of one brings oxygen to four people.
   Their benefit to the enviroment is no doubt, a valued one.
   However, the Dryads now need your help to fight against defortestion of their homes and chemcials
   spreading over their home and their animals.</span>
@@ -68,7 +66,7 @@
 
 
 <div class="Show">
-<div class="rect2"><li id="Contact">
+<div class="rect3"><li id="Contact">
   <button class="toggle3"><div class="title">Contact</div>
   </button></li></div>
 <div class="content3">
@@ -101,6 +99,9 @@
 
 
 <script>
+
+
+
 $(".toggle1" ).click(function() {
   $( ".content1" ).toggle( "slow" );
 });
@@ -116,6 +117,7 @@ $( ".toggle3" ).click(function() {
 $( ".toggle4" ).click(function() {
   $( ".content4" ).toggle( "slow" );
 });
+
 
 </script>
 

@@ -294,6 +294,7 @@ button:hover{
 }
 
 
+
 #Protest{
   image-orientation:center;
 
@@ -305,4 +306,43 @@ button:hover{
   margin-top:1000px;
   font-size:30px;
   color:
+}
+
+#popup{
+    position:right;
+    margin-left:100px;
+    background: #0E553C;
+    display: none;
+    top: 20px;
+    left: 50px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid #01433F;
+    border-radius: 20px;
+    padding: 5px;
+    color: #fff;
+    font-size:15px;
+}
+#close_popup{
+  font-size:15px;
+}
+
+
+#open-popup:active{
+  display:none;
+
+}
+
+a{
+  color: #2BB673;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 34px;
+  font-weight: bold;
+
+}
+a:hover{
+    color: #B9FC4F;
+
 }

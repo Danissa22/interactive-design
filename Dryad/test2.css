@@ -71,6 +71,7 @@ body{
 
 
 .content4 {
+  position:fixed;
   display: block;
   width: 200px;
   height: 200px;
@@ -79,7 +80,7 @@ body{
   text-align:right;
   margin-left:400px;
   text-decoration-line: none;
-    display:none;
+  display:none;
 
 }
 

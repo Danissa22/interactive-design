@@ -350,6 +350,7 @@ li{
 }
 
 button{
+
       list-style-position: inside;
       height:5px;
       border-radius: 30px 50px 15px 50px;
@@ -378,6 +379,8 @@ button{
 button:hover{
     color: #B9FC4F;
 }
+
+button:focus {outline:0;}​
 
 .Hide
 {

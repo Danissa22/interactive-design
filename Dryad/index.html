@@ -53,12 +53,14 @@
   </button></li></div>
 <div class="content2">
 
-  <h2>Earth Day’s Rally </h2>
+  <h3>Earth Day’s Rally </h3>
 <ul>
-
-  <li>Location: Central Park, NYC, New York</li>
-  <li>Time: 2:00pm</li>
-  <li>Day: Sunday</li>
+  <div id="Loca-Para">
+  <p>Location: Central Park, NYC, New York</p>
+  <p>Address:14 East 60th St </p>
+  <p>Time: 2:00pm</p>
+  <p>Day: Sunday<p>
+  </p>
 </ul>
 
 
@@ -71,10 +73,9 @@
   </button></li></div>
 <div class="content3">
 
-  <ul>
 
-    <li>Call
-  1-800-725-6995</li>
+    <p>Call: 1-800-725-6995</p>
+    <ul>
     <li>DryadRights.facebook.com</li>
     <li>DryadRights@gmail.com</li>
   </ul>
@@ -90,8 +91,8 @@
   </button></li></div>
 <div class="content4">
 
-  <p>Join the Rally to Help Protect
-  Dryad’s Rights and their Homes from Corportations</p>
+  <p>Join the Rally to Help Protect</p>
+</p>Dryad’s Rights and their Homes from Corportations</p>
 
 
 </div>
@@ -102,21 +103,40 @@
 
 
 
-$(".toggle1" ).click(function() {
+$(".toggle1" ).mouseenter(function() {
   $( ".content1" ).toggle( "slow" );
 });
 
-$( ".toggle2" ).click(function() {
+$(".toggle1").mouseleave(function() {
+   $(".content1").toggle("slow")
+ });
+
+
+$( ".toggle2" ).mouseenter(function() {
   $( ".content2" ).toggle( "slow" );
 });
 
-$( ".toggle3" ).click(function() {
+$(".toggle2").mouseleave(function() {
+   $(".content2").toggle("slow")
+ });
+
+
+$( ".toggle3" ).mouseenter(function() {
   $( ".content3" ).toggle( "slow" );
 });
 
-$( ".toggle4" ).click(function() {
+$(".toggle3").mouseleave(function() {
+   $(".content3").toggle("slow")
+ });
+
+
+$( ".toggle4" ).mouseenter(function() {
   $( ".content4" ).toggle( "slow" );
 });
+
+$(".toggle4").mouseleave(function() {
+   $(".content4").toggle("slow")
+ });
 
 
 </script>

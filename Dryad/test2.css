@@ -111,15 +111,65 @@ body{
 height: 300px;
 background-color: #297B48;
 position: relative;
-  border-bottom-left-radius: 50% 20%;
- border-bottom-right-radius: 50% 20%;
- border-top-left-radius:5% 5%;
- border-top-right-radius:5% 5%;
- padding-top:30px;
- padding-bottom:40px;
- margin-top:30px;
- font-weight:lighter;
- display:none;
+border-bottom-left-radius: 50% 20%;
+border-bottom-right-radius: 50% 20%;
+border-top-left-radius:5% 5%;
+border-top-right-radius:5% 5%;
+padding-top:30px;
+padding-bottom:40px;
+margin-top:30px;
+font-weight:lighter;
+animation: fadein 2s;
+ -moz-animation: fadein 2s; /* Firefox */
+-webkit-animation: fadein 2s; /* Safari and Chrome */
+-o-animation: fadein 2s; /* Opera */
+
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:onload{
+
 }
 
 

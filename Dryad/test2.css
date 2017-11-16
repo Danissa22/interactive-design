@@ -10,16 +10,6 @@ body{
 
 
 
-
-.DryadBackground:onload{
-
-}
-
-
-
-
-
-
 .content1 {
   display: block;
   width: 400px;
@@ -117,14 +107,16 @@ border-top-left-radius:5% 5%;
 border-top-right-radius:5% 5%;
 padding-top:30px;
 padding-bottom:40px;
-margin-top:30px;
+margin-bottom:30px;
 font-weight:lighter;
 animation: fadein 2s;
- -moz-animation: fadein 2s; /* Firefox */
--webkit-animation: fadein 2s; /* Safari and Chrome */
--o-animation: fadein 2s; /* Opera */
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
 
 }
+
+
 
 @keyframes fadein {
     from {
@@ -326,6 +318,14 @@ margin-top:12px;
 }
 
 
+
+.DryadBackground{
+margin-top:13px;
+animation:fadein 1s;
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+}
 
 
 .vl {

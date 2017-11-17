@@ -445,6 +445,19 @@ h3{
   color:#47AF21
 }
 
+
+.toggle1{
+   cursor:se-resize;
+}
+
+.toggle2{
+  cursor:sw-resize;
+}
+
+.toggle3{
+  cursor:se-resize;
+}
+
 .toggle4{
   cursor:help;
 }

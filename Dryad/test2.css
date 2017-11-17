@@ -9,6 +9,10 @@ body{
  }
 
 
+span{
+  cursor: cell;
+}
+
 
 .content1 {
   display: block;
@@ -439,4 +443,8 @@ button:focus {outline:0;}​
 
 h3{
   color:#47AF21
+}
+
+.toggle4{
+  cursor:help;
 }

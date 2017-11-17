@@ -63,6 +63,8 @@ body{
   border-radius: 30px;
   padding:30px;
   text-align:left;
+  font-size:20px;
+  color:#8CDB6F;
   list-style:none;
   margin-top:13px;
   margin-left:680px;
@@ -196,11 +198,7 @@ color: #8EC024;
  color: #8EC024;
  }
 
- #Loca-Para{
-   text-align:right;
-   font-size:13px;
-   margin-left:30px;
- }
+
 
 
 .rect1{
@@ -230,6 +228,13 @@ color: #8EC024;
    font-size:30px;
   font-weight: bold;
 
+}
+
+#Loca-Para{
+  text-align:right;
+  font-size:13px;
+  margin-left:30px;
+  color:#47AF21;
 }
 
 .rect2{
@@ -433,5 +438,5 @@ button:focus {outline:0;}​
 }
 
 h3{
-  color:#47AF21;
+  color:#47AF21
 }

@@ -3,6 +3,20 @@ body{
 }
 
 
+.About{
+
+  width: 500px;
+  height: 500px;
+  background: #e1543a;
+  border: 7px solid;
+  border-color: #003249;
+  margin-left: 700px;
+  border-radius: 15px 15px 15px 15px;
+  position: fixed;
+
+
+}
+
 .title{
 
 }

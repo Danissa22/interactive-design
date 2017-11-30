@@ -23,6 +23,19 @@ button{
 
 }
 
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
 
 button:focus {outline:0;}​
 
@@ -31,10 +44,10 @@ button:focus {outline:0;}​
 .column-exercise-cointainer{
   max-width: 1400px;
   padding: 30px 0;
-  margin: 80px auto 0 auto;
+  margin: 40px auto 0 auto;
   background: #003249;
   display: flex;
-  align-items: right;
+  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row-reverse;
@@ -56,6 +69,13 @@ button:focus {outline:0;}​
   justify-content: center;
   box-sizing: border-box;
 }
+
+a:link{
+  text-decoration-style: none;
+  text-decoration:none;
+
+}
+
 
 
 .column-project{

@@ -15,8 +15,8 @@
 <div class="container-one">
 
 <button class="toggle1"><div class="fixed-size">Exercise</div></button>
-<button class="toggle1"><div class="fixed-size">Projects</div></button>
-<button class="toggle1"><div class="fixed-size">Instagram</div></button>
+<button class="toggle2"><div class="fixed-size">Projects</div></button>
+<button class="toggle3"><div class="fixed-size">Instagram</div></button>
 
 </div>
 
@@ -26,19 +26,34 @@
 
 
 
-    <button class="toggle2"><div class="E">E1</div></button>
-    <button class="toggle2"><div class="E">E2</div></button>
-    <button class="toggle2"><div class="E">E3</div></button>
-    <button class="toggle2"><div class="E">E4</div></button>
-    <button class="toggle2"><div class="E">E5</div></button>
+    <button class="tog2"><div class="E">E1</div></button>
+    <button class="tog2"><div class="E">E2</div></button>
+    <button class="tog2"><div class="E">E3</div></button>
+    <button class="tog2"><div class="E">E4</div></button>
+    <button class="tog2"><div class="E">E5</div></button>
+    <button class="tog2"><div class="E">E6</div></button>
+    <button class="tog2"><div class="E">E7</div></button>
+    <button class="tog2"><div class="E">E8</div></button>
+    <button class="tog2"><div class="E">E9</div></button>
 
 
     </div>
 
 
+
+<div class="EContent">
+
+
+
   </div>
 
+  <div class="cointainer-three">
 
+    <button class="tog2"><div class="P">Poem</div></button>
+    <button class="tog2"><div class="P">Mircosite</div></button>
+    <button class="tog2"><div class="P">Catalog</div></button>
+
+  </div>
 
   <div class="About">
   <h3>About</h3>
@@ -46,6 +61,22 @@
 
   </p>
   </div>
+
+  <script>
+
+
+
+  $(".toggle1" ).click(function() {
+    $( ".cointainer-two" ).toggle( "slow" );
+  });
+
+  $(".toggle2" ).click(function() {
+    $( ".cointainer-three" ).toggle( "slow" );
+  });
+
+
+
+  </script>
 
 
 

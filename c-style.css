@@ -7,7 +7,6 @@ body{
 display: flex; /* or inline-flex */
 flex-direction: column;
 flex-wrap:wrap;
-align-content: flex-start;
 }
 
 .fixed-size{
@@ -20,9 +19,9 @@ align-content: flex-start;
 }
 
 .column-excerise-cointainer{
-
+  margin-left: 130px;
   display:flex;
-  flex-direction:column-reverse;
+  flex-direction:column;
   justify-content:center;
 }
 
@@ -50,31 +49,8 @@ align-content: flex-start;
     }
 
 
-
-
-    .toggle2{
-      background-color: #003249;
-        border: none;
-        color: white;
-
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 10px 2px;
-        width: 200px;
-        height: 200px;
-        border-radius: 15px 15px 15px 15px;
-
-
-    }
-
-
-
-
-
-
     button:focus {outline:0;}​
+
 
 
     .E{
@@ -84,6 +60,7 @@ align-content: flex-start;
       text-align: center;
       font-size: 12px;
       display: flex;
+      margin-left:120px;
       align-items: center;
       justify-content: center;
       box-sizing: border-box;

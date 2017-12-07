@@ -12,13 +12,16 @@ body{
   border-color: #003249;
   margin-left: 700px;
   border-radius: 15px 15px 15px 15px;
-  position: fixed;
+  position:fixed;
 
 
 }
 
-.title{
 
+
+#content{
+  position:absolute;
+top:2px;
 }
 
 button{
@@ -74,12 +77,27 @@ button:focus {outline:0;}​
 }
 
 
+.column-project-cointainer{
+  max-width: 1400px;
+  padding: 30px 0;
+  margin: 40px auto 0 auto;
+  background: #003249;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+
+
+}
+
 
   #arrow {
-  width: 200px;
-  height: 40px;
+  width: 100px;
+  height: 30px;
   position: relative;
-  background: red;
+  background: -webkit-linear-gradient(left top, #E44C24, #E47E24);
+  margin-bottom:30px;
 }
 #arrow:after {
   content: "";
@@ -88,7 +106,7 @@ button:focus {outline:0;}​
   bottom: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid white;
+  border-left: 20px solid red;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
 }
@@ -109,15 +127,20 @@ button:focus {outline:0;}​
 .E{
   width: 50px;
   height: 50px;
-  background: #003249;
   text-align: center;
   font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 120px;
-
+  background: #E42924; /* For browsers that do not support gradients */
+ background: -webkit-linear-gradient(left top, #E44C24, #E47E24); /* For Safari 5.1 to 6.0 */
+ border-style: 12px solid;
+ border-bottom: 12px solid;
+ border-color: white;
 }
 
 a:link{
@@ -128,34 +151,27 @@ a:link{
 }
 
 a:hover{
-    color: #2B87B4;
+    color: black;
 }
 
 
-.column-project-cointainer{
-  max-width: 1400px;
-  padding: 30px 0;
-  margin: 40px auto 0 auto;
-  background: #003249;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-
-}
 
 .P{
   width: 50px;
   height: 50px;
-  background: #003249;
   text-align: center;
   font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  margin-bottom: 20px;
   margin-left: 120px;
+  background: #E42924; /* For browsers that do not support gradients */
+ background: -webkit-linear-gradient(left top, #E44C24, #E47E24); /* For Safari 5.1 to 6.0 */
+ border-style: 12px solid;
+ border-bottom: 12px solid;
+ border-color: white;
 
 
 }

@@ -19,10 +19,12 @@ body{
 
 
 .cointainer-two{
-  display:none;
-  flex-direction:column-reverse;
-  position: absolute;
   display:flex;
+  flex-direction:column-reverse;
+  align-self:center;
+  margin-bottom: 300px;
+  margin-left:340px;
+  display:none;
 }
 
 
@@ -31,9 +33,6 @@ body{
   flex-direction:column;
   align-self:center;
   position: absolute;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  margin-left:340px;
 
 }
 
@@ -44,6 +43,7 @@ body{
   background: #E65000;
   font-size:30px;
   align-items:center;
+  display:flex;
 
 }
 

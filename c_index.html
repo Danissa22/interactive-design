@@ -52,95 +52,87 @@
     </div>
 
 
-
+<!--
 <div id="EContent">
 
   <div class="E-About">
-    <img scr=""
-    <p id="e1">
-      Exercise one is about poem sentencer generator
+
+    <div id="e1">
+    <p>  Exercise one is about poem sentencer generator</p>
       <button class="link"><a href="Exercises/Starter Kit Poem/index.html"></a>
         Check it out!</button>
-    </p>
-
-
   </div>
 
-    <div class="E-About">
-      <img scr=""
-      <p id="e2">
-        Exercise two is about Malevich Squares
+
+
+      <div id="e2">
+      <p>  Exercise two is about Malevich Squares
         <button class="link"><a href="Exercises/Malevich_Boxes/index.html">
         </a>Check it out!</button>
       </p>
-
-
     </div>
 
-      <div class="E-About">
-        <img scr=""
-        <p id="e3">
-          Exercise is about postioning demo!
+
+
+        <div id="e3">
+        <p>  Exercise is about postioning demo!</p>
           <button class="link"><a href="Exercises/Positioning demo/index.html"</a>Check it out!</button>
 
-        </p>
-
 
       </div>
 
-      <div class="E-About">
-        <img scr=""
-        <p id="e4">
-          Exercise is about postioning JQuery!
+
+        <div id="e4">
+          <p>Exercise is about postioning JQuery!</p>
 
             <button class="link"><a href="Exercises/JQuery/index.html"</a>Check it out!</button>
-        </p>
 
 
-      </div>
+</div>
 
-
-      <div class="E-About">
-          <img scr=""
-          <p id="e4">
-            Exercise four is about praticing with HoverStates!
-
-          </p>
+          <div id="E5">
+            <p>Exercise four is about praticing with HoverStates</p>
 <button class="link"><a href="Exercises/HoverStates/Pratice1.html"</a>Check it out!</button>
+</div>
 
-  </div>
+</div>
+</div> -->
 
 
 
-  </div>
 
   <div class="cointainer-three">
     <div class="project-column">
 
-    <button class="togP2"><div class="P">Poem</div></button>
-    <br>
+    <button class="togP1"><div class="P">Poem</div></button>
     <button class="togP2"><div class="P">Mircosite</div></button>
-    <br>
     <button class="togP3"><div class="P">Catalog</div></button>
 
   </div>
 
 </div>
+
 <div class="P-cointainer">
   <div class="P-About">
-    <p id="Poem">
 
-<button class="link"><a href="PoemLevel.html"</a>Check it out!</button>
-    </p>
+    <div id="Poem">
+<p> This project is about the variations of casting the poem in different ways
+of coding.</p>
+<button class="link"><a href="PoemLevel.html">Check it out!</a></button>
+  </div>
 
-    <p id="Mircosite">
+    <div id="Mircosite">
+      <p> An PSA event page in adovacting the rights of the Dryad People(Half-Tree/Half-Human)</p>
+      <button class="link"><a href="Dryad/index.html">Check it out!</a></button>
+     </div>
 
-     </p>
-    <p id="Catalog">
+    <div id="Catalog">
+      <p> This whole website. Nothing said, okay! Do you really need to check it out?</p>
+      <button class="link"><a href="c-index.html">Check it out!</a></button>
 
+    </div>
 
-    </p>
-
+</div>
 </div>
 
 
@@ -166,21 +158,63 @@
     audio.play();
   });
 
+
+
+  // Exercises
+
   $(".tog1" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
     $( "#e1" ).toggle( "slow" );
-    var audio = document.getElementById('audio3');
+      $("#e2").hide();
+      $("#e3").hide();
+      $("#e4").hide();
+      $("#e5").hide();
+      var audio = document.getElementById('audio3');
     audio.play();
   });
+
+  $(".tog2" ).click(function() {
+    $( ".E-About" ).toggle( "slow" );
+    $( "#e2" ).toggle( "slow" );
+      $("#e1").hide();
+      $("#e3").hide();
+      $("#e4").hide();
+      $("#e5").hide();
+      var audio = document.getElementById('audio3');
+    audio.play();
+  });
+
+
+
+// Projects
+
 
   $(".togP1" ).click(function() {
     $( ".P-About" ).toggle( "slow" );
     $( "#Poem" ).toggle( "slow" );
+      $("#Mircosite").hide();
+        $("#Catalog").hide();
     var audio = document.getElementById('audio3');
     audio.play();
   });
 
+  $(".togP2" ).click(function() {
+    $( ".P-About" ).toggle( "slow" );
+    $( "#Mircosite" ).toggle( "slow" );
+      $("#Poem").hide();
+        $("#Catalog").hide();
+    var audio = document.getElementById('audio3');
+    audio.play();
+  });
 
+    $(".togP3" ).click(function() {
+      $( ".P-About" ).toggle( "slow" );
+      $( "#Catalog" ).toggle( "slow" );
+        $("#Poem").hide();
+          $("#Mircosite").hide();
+      var audio = document.getElementById('audio3');
+      audio.play();
+    });
   </script>
 
 

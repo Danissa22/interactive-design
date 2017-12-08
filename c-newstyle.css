@@ -184,8 +184,8 @@ button{
   display:none;
   position: relative;
 
-  width: 200px;
-  height: 150px;
+  width: 900px;
+  height: 350px;
   margin: 20px 0;
   float: right;
   background: #D26707;
@@ -193,6 +193,22 @@ button{
   color: white;
   text-align: center;
   text-indent: .1em;
+}
+
+#e1{
+  display:none;
+}
+#e2{
+  display:none;
+}
+#e3{
+  display:none;
+}
+#e4{
+  display:none;
+}
+#e5{
+  display:none;
 }
 /*.E-About:before {
   content: '';
@@ -204,6 +220,31 @@ button{
   background: inherit;
   border-radius: 5% / 50%;
 }*/
+
+.P-About{
+  display:none;
+  position: relative;
+
+  width: 500px;
+  height: 150px;
+  margin: 20px 0;
+  float: right;
+  background: #D26707;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+#Poem{
+  display:none;
+}
+#Mircosite{
+  display:none;
+}
+#Catalog{
+  display:none;
+}
+
 
 .link{
   width: 150px;

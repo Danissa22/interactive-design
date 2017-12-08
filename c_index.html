@@ -30,7 +30,7 @@
 
 <div class="exercise-colum">
 
-    <button class="tog1"><div class="E">E1</div></button>
+    <button class="togP1"><div class="E">E1</div></button>
     <br>
     <button class="tog2"><div class="E">E2</div></button>
     <br>
@@ -100,17 +100,29 @@
 
 
 
+<!-- ////projects -->
+
 
   <div class="cointainer-three">
     <div class="project-column">
+      <div class="exercise-colum">
 
-    <button class="togP1"><div class="P">Poem</div></button>
-    <button class="togP2"><div class="P">Mircosite</div></button>
-    <button class="togP3"><div class="P">Catalog</div></button>
+          <button class="togP1"><div class="P">Poem</div></button>
+          <br>
+          <button class="togP2"><div class="P">Microsite</div></button>
+          <br>
+          <button class="togP3"><div class="P">Republish a Text</div></button>
+          <br>
+          <button class="tog4"><div class="P">Catalog</div></button>
+
+
+      </div>
 
   </div>
 
 </div>
+
+
 
 <div class="P-cointainer">
   <div class="P-About">
@@ -136,6 +148,33 @@ of coding.</p>
 </div>
 
 
+<!--
+EXERCISES -->
+
+  <div class="E-About">
+
+    <div id="E1">
+<p> Exercise</p>
+<button class="link"><a href="Exercises/Starter Kit Poem.html">Check it out!</a></button>
+  </div>
+
+    <div id="Mircosite">
+      <p> An PSA event page in adovacting the rights of the Dryad People(Half-Tree/Half-Human)</p>
+      <button class="link"><a href="Dryad/index.html">Check it out!</a></button>
+     </div>
+
+    <div id="Catalog">
+      <p> This whole website. Nothing said, okay! Do you really need to check it out?</p>
+      <button class="link"><a href="c-index.html">Check it out!</a></button>
+
+    </div>
+
+</div>
+</div>
+
+
+
+
 <audio id='suara1' src='Catalog/audio/Pump-Shotgun.mp3'></audio>
 <audio id='audio2' src='Catalog/audio/TheLegendofZelda.mp3'></audio>
 <audio id='audio3' src='Catalog/audio/Final Fantasy VII- Equip.mp3'></audio>
@@ -155,6 +194,7 @@ of coding.</p>
   $(".toggle2" ).click(function() {
     $( ".cointainer-three" ).toggle( "slow" );
     $(".cointainer-two").hide();
+    $( ".E-About" ).hide();
     var audio = document.getElementById('audio2');
     audio.play();
   });
@@ -163,25 +203,12 @@ of coding.</p>
 
   // Exercises
 
-  $(".tog1" ).click(function() {
+  $(".togP3" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
-    $( "#e1" ).toggle( "slow" );
-      $("#e2").hide();
-      $("#e3").hide();
-      $("#e4").hide();
-      $("#e5").hide();
-      var audio = document.getElementById('audio3');
-    audio.play();
-  });
-
-  $(".tog2" ).click(function() {
-    $( ".E-About" ).toggle( "slow" );
-    $( "#e2" ).toggle( "slow" );
-      $("#e1").hide();
-      $("#e3").hide();
-      $("#e4").hide();
-      $("#e5").hide();
-      var audio = document.getElementById('audio3');
+    $( "#Catalog" ).toggle( "slow" );
+      $("#Poem").hide();
+        $("#Mircosite").hide();
+    var audio = document.getElementById('audio3');
     audio.play();
   });
 
@@ -191,8 +218,8 @@ of coding.</p>
 
 
   $(".togP1" ).click(function() {
-    $( ".P-About" ).toggle( "fast" );
-    $( "#Poem" ).toggle( "fast" );
+    $( ".P-About" ).toggle( "slow" );
+    $( "#Poem" ).toggle( "slow" );
       $("#Mircosite").hide();
         $("#Catalog").hide();
     var audio = document.getElementById('audio3');
@@ -200,8 +227,8 @@ of coding.</p>
   });
 
   $(".togP2" ).click(function() {
-    $( ".P-About" ).toggle( "fast" );
-    $( "#Mircosite" ).toggle( "fast" );
+    $( ".P-About" ).toggle( "slow" );
+    $( "#Mircosite" ).toggle( "slow" );
       $("#Poem").hide();
         $("#Catalog").hide();
     var audio = document.getElementById('audio3');
@@ -209,8 +236,8 @@ of coding.</p>
   });
 
     $(".togP3" ).click(function() {
-      $( ".P-About" ).toggle( "fast" );
-      $( "#Catalog" ).toggle( "fast" );
+      $( ".P-About" ).toggle( "slow" );
+      $( "#Catalog" ).toggle( "slow" );
         $("#Poem").hide();
           $("#Mircosite").hide();
       var audio = document.getElementById('audio3');

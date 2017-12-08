@@ -18,7 +18,7 @@ body{
 
 .cointainer-two{
   display:flex;
-  flex-direction:column-reverse;
+  flex-direction:column;
   align-self:center;
   display:none;
 }
@@ -41,7 +41,7 @@ body{
   background: #E65000;
   font-size:30px;
   align-items:center;
-  display:flex;
+
 
 
 }

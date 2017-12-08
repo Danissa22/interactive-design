@@ -32,71 +32,26 @@
 
     <button class="togE1"><div class="E">E1</div></button>
     <br>
-    <button class="tog2"><div class="E">E2</div></button>
+    <button class="togE2"><div class="E">E2</div></button>
     <br>
-    <button class="tog3"><div class="E">E3</div></button>
+    <button class="togE3"><div class="E">E3</div></button>
     <br>
-    <button class="tog4"><div class="E">E4</div></button>
+    <button class="togE4"><div class="E">E4</div></button>
     <br>
-    <button class="tog5"><div class="E">E5</div></button>
+    <button class="togE5"><div class="E">E5</div></button>
     <br>
-    <button class="tog6"><div class="E">E6</div></button>
+    <button class="togE6"><div class="E">E6</div></button>
     <br>
-    <button class="tog7"><div class="E">E7</div></button>
+    <button class="togE7"><div class="E">E7</div></button>
     <br>
-    <button class="tog8"><div class="E">E8</div></button>
+    <button class="togE8"><div class="E">E8</div></button>
     <br>
-    <button class="tog9"><div class="E">E9</div></button>
+    <button class="togE9"><div class="E">E9</div></button>
 
 </div>
     </div>
 
 
-<!--
-<div id="EContent">
-
-  <div class="E-About">
-
-    <div id="e1">
-    <p>  Exercise one is about poem sentencer generator</p>
-      <button class="link"><a href="Exercises/Starter Kit Poem/index.html"></a>
-        Check it out!</button>
-  </div>
-
-
-
-      <div id="e2">
-      <p>  Exercise two is about Malevich Squares
-        <button class="link"><a href="Exercises/Malevich_Boxes/index.html">
-        </a>Check it out!</button>
-      </p>
-    </div>
-
-
-
-        <div id="e3">
-        <p>  Exercise is about postioning demo!</p>
-          <button class="link"><a href="Exercises/Positioning demo/index.html"</a>Check it out!</button>
-
-
-      </div>
-
-
-        <div id="e4">
-          <p>Exercise is about postioning JQuery!</p>
-
-            <button class="link"><a href="Exercises/JQuery/index.html"</a>Check it out!</button>
-
-
-</div>
-
-          <div id="E5">
-            <p>Exercise four is about praticing with HoverStates</p>
-<button class="link"><a href="Exercises/HoverStates/Pratice1.html"</a>Check it out!</button>
-</div>
-
-</div>
-</div> -->
 
 
 
@@ -158,8 +113,8 @@ EXERCISES -->
   <div class="E-About">
 
     <div id="E1">
-<p> Exercise</p>
-<button class="link"><a href="Exercises/Starter Kit Poem.html">Check it out!</a></button>
+<p> Sentence Generator</p>
+<button class="link"><a href="Exercises/Starter Kit Poem/index.html">Check it out!</a></button>
   </div>
 
     <div id="E2">
@@ -212,6 +167,16 @@ EXERCISES -->
       $("#E2").hide();
       $("#E4").hide();
       $("#E5").hide();
+    var audio = document.getElementById('audio3');
+    audio.play();
+  });
+
+  $(".togE2" ).click(function() {
+    $( ".E-About" ).toggle( "slow" );
+    $( "#E2" ).toggle( "slow" );
+      $("#E1").hide();
+      $("#E3").hide();
+      $("#E4").hide();
     var audio = document.getElementById('audio3');
     audio.play();
   });

@@ -30,7 +30,7 @@
 
 <div class="exercise-colum">
 
-    <button class="togP1"><div class="E">E1</div></button>
+    <button class="togE1"><div class="E">E1</div></button>
     <br>
     <button class="tog2"><div class="E">E2</div></button>
     <br>
@@ -100,12 +100,11 @@
 
 
 
-<!-- ////projects -->
+<!-- ////PROJECTS-->
 
 
   <div class="cointainer-three">
     <div class="project-column">
-      <div class="exercise-colum">
 
           <button class="togP1"><div class="P">Poem</div></button>
           <br>
@@ -113,14 +112,12 @@
           <br>
           <button class="togP3"><div class="P">Republish a Text</div></button>
           <br>
-          <button class="tog4"><div class="P">Catalog</div></button>
+          <button class="togP4"><div class="P">Catalog</div></button>
 
 
       </div>
 
   </div>
-
-</div>
 
 
 
@@ -137,6 +134,13 @@ of coding.</p>
       <p> An PSA event page in adovacting the rights of the Dryad People(Half-Tree/Half-Human)</p>
       <button class="link"><a href="Dryad/index.html">Check it out!</a></button>
      </div>
+
+     <div id="Republish">
+           <p> Republish a text through social media giving it whole new meaning.</p>
+           <button class="link"><a href="c-index.html">Check it out!</a></button>
+
+         </div>
+
 
     <div id="Catalog">
       <p> This whole website. Nothing said, okay! Do you really need to check it out?</p>
@@ -158,12 +162,12 @@ EXERCISES -->
 <button class="link"><a href="Exercises/Starter Kit Poem.html">Check it out!</a></button>
   </div>
 
-    <div id="Mircosite">
+    <div id="E2">
       <p> An PSA event page in adovacting the rights of the Dryad People(Half-Tree/Half-Human)</p>
       <button class="link"><a href="Dryad/index.html">Check it out!</a></button>
      </div>
 
-    <div id="Catalog">
+    <div id="E3">
       <p> This whole website. Nothing said, okay! Do you really need to check it out?</p>
       <button class="link"><a href="c-index.html">Check it out!</a></button>
 
@@ -202,12 +206,12 @@ EXERCISES -->
 
 
   // Exercises
-
-  $(".togP3" ).click(function() {
+  $(".togE1" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
-    $( "#Catalog" ).toggle( "slow" );
-      $("#Poem").hide();
-        $("#Mircosite").hide();
+    $( "#E1" ).toggle( "slow" );
+      $("#E2").hide();
+      $("#E4").hide();
+      $("#E5").hide();
     var audio = document.getElementById('audio3');
     audio.play();
   });
@@ -221,7 +225,8 @@ EXERCISES -->
     $( ".P-About" ).toggle( "slow" );
     $( "#Poem" ).toggle( "slow" );
       $("#Mircosite").hide();
-        $("#Catalog").hide();
+      $("#Catalog").hide();
+      $("#Republish").hide();
     var audio = document.getElementById('audio3');
     audio.play();
   });
@@ -230,16 +235,28 @@ EXERCISES -->
     $( ".P-About" ).toggle( "slow" );
     $( "#Mircosite" ).toggle( "slow" );
       $("#Poem").hide();
-        $("#Catalog").hide();
+      $("#Catalog").hide();
+      $("#Republish").hide();
     var audio = document.getElementById('audio3');
     audio.play();
   });
 
     $(".togP3" ).click(function() {
       $( ".P-About" ).toggle( "slow" );
+      $( "#Republish" ).toggle( "slow" );
+        $("#Poem").hide();
+        $("#Mircosite").hide();
+        $("#Catalog").hide();
+      var audio = document.getElementById('audio3');
+      audio.play();
+    });
+
+    $(".togP4" ).click(function() {
+      $( ".P-About" ).toggle( "slow" );
       $( "#Catalog" ).toggle( "slow" );
         $("#Poem").hide();
-          $("#Mircosite").hide();
+        $("#Mircosite").hide();
+        $("#Republish").hide();
       var audio = document.getElementById('audio3');
       audio.play();
     });

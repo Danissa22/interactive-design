@@ -189,8 +189,8 @@ button{
   display:none;
   position: relative;
 
-  width: 900px;
-  height: 350px;
+  width: 500px;
+  height: 150px;
   margin: 20px 0;
   float: right;
   background: #D26707;
@@ -251,6 +251,10 @@ button{
   display:none;
 }
 #Mircosite{
+  font-size:15px;
+  display:none;
+}
+#Republish{
   font-size:15px;
   display:none;
 }

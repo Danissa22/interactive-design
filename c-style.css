@@ -13,12 +13,15 @@ body{
   align-self: flex-start;
 }
 
+
+
+
+
+
 .cointainer-two{
   display:flex;
-   align-items: center;
-}
-.cointainer-three{
-  display:flex
+  flex-direction:column-reverse;
+  position: absolute;
 }
 
 
@@ -26,15 +29,59 @@ body{
   display:flex;
   flex-direction:column;
   align-self:center;
+  position: absolute;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left:340px;
 
 }
+
+.E{
+  width: 50px;
+  height: 50px;
+  color: white;
+  background: #E65000;
+  font-size:30px;
+  align-items:center;
+
+}
+
+.E:hover{
+  color:#003249;
+}
+
+
+
+
+.cointainer-three{
+  display:flex;
+  flex-direction:column-reverse;
+  position: absolute;
+  display:none;
+}
+
+
 
 .project-column{
   display:flex;
   flex-direction:column;
+  position:absolute;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-left:340px;
+
 }
 
+.P{
+  width: 100px;
+  height: 90px;
+  background: #E65000;
+  font-size:30px;
 
+}
+.P:hover{
+  color:#003249;
+}
     .toggle1{
       background-color: #003249;
         border: none;
@@ -86,11 +133,9 @@ body{
 
 button{
 
-  width: 100px;
-  height: 100px;
   color: white;
-  background: #003249;
-  font-size:13px;
+  background: #E65000;
+  transition: all 0.8s
 
 
 }

@@ -19,7 +19,7 @@
 
 <div class="navi">
 <button class="toggle1"onclick='suara1()'><div class="fixed-size">Exercise</div></button>
-<button class="toggle2"><div class="fixed-size">Projects</div></button>
+<button class="toggle2" onclick='audio2()'><div class="fixed-size">Projects</div></button>
 <button class="toggle3"><div class="fixed-size">
   <a href="https://www.instagram.com/santosdanissa22/">Instagram</a></div></button>
 
@@ -32,13 +32,21 @@
 <div class="exercise-colum">
 
     <button class="tog1"><div class="E">E1</div></button>
+    <br>
     <button class="tog2"><div class="E">E2</div></button>
+    <br>
     <button class="tog3"><div class="E">E3</div></button>
+    <br>
     <button class="tog4"><div class="E">E4</div></button>
+    <br>
     <button class="tog5"><div class="E">E5</div></button>
+    <br>
     <button class="tog6"><div class="E">E6</div></button>
+    <br>
     <button class="tog7"><div class="E">E7</div></button>
+    <br>
     <button class="tog8"><div class="E">E8</div></button>
+    <br>
     <button class="tog9"><div class="E">E9</div></button>
 
 </div>
@@ -80,10 +88,12 @@
   </div>
 
   <div class="cointainer-three">
-    <div class="project-column"
+    <div class="project-column">
 
-    <button class="togP1"><div class="P">Poem</div></button>
     <button class="togP2"><div class="P">Mircosite</div></button>
+    <br>
+    <button class="togP2"><div class="P">Mircosite</div></button>
+    <br>
     <button class="togP3"><div class="P">Catalog</div></button>
 
   </div>
@@ -91,7 +101,8 @@
 </div>
 
 
-<audio id='suara1' src='http://www.freesfx.co.uk/rx2/mp3s/3/3233_1329146192.mp3'></audio>
+<audio id='suara1' src='Catalog/audio/Pump-Shotgun.mp3'></audio>
+<audio id='audio2' src='Catalog/audio/Pop-Clip-In.mp3'></audio>
 
   <script>
 
@@ -105,6 +116,8 @@
 
   $(".toggle2" ).click(function() {
     $( ".cointainer-three" ).toggle( "slow" );
+    var audio = document.getElementById('audio2');
+    audio.play();
   });
 
 

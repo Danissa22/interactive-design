@@ -5,7 +5,7 @@
 <head>
 
 <title>Catalog Navigation     </title>
-<link rel="stylesheet" type="text/css" href="c-style.css">
+<link rel="stylesheet" type="text/css" href="c-newstyle.css">
 <meta charset="utf-8">
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
@@ -17,13 +17,12 @@
 
 <div class="container-one">
 
-<div class="navi">
-<button class="toggle1"onclick='suara1()'><div class="fixed-size">Exercise</div></button>
+
+<button class="toggle1"onclick='suara1()'>Exercise</button>
 <button class="toggle2" onclick='audio2()'><div class="fixed-size">Projects</div></button>
 <button class="toggle3"><div class="fixed-size">
   <a href="https://www.instagram.com/santosdanissa22/">Instagram</a></div></button>
 
-</div>
 </div>
 
 
@@ -54,16 +53,16 @@
 
 
 
-<div class="EContent">
+<div id="EContent">
 
   <div class="E-About">
     <img scr=""
     <p id="e1">
       Exercise one is about poem sentencer generator
-
+      <button class="link"><a href="Exercises/Starter Kit Poem/index.html"></a>
+        Check it out!</button>
     </p>
-    <button class="link"><a href="Exercises/Starter Kit Poem/index.html"></a>
-      Check it out!</button>
+
 
   </div>
 
@@ -71,9 +70,10 @@
       <img scr=""
       <p id="e2">
         Exercise two is about Malevich Squares
+        <button class="link"><a href="Exercises/Malevich_Boxes/index.html">
+        </a>Check it out!</button>
       </p>
-    <button class="link"><a href="Exercises/Malevich_Boxes/index.html">
-    </a>Check it out!</button>
+
 
     </div>
 
@@ -81,8 +81,9 @@
         <img scr=""
         <p id="e3">
           Exercise is about postioning demo!
+          <button class="link"><a href="Exercises/Positioning demo/index.html"</a>Check it out!</button>
+
         </p>
-        <button class="link"><a href="Exercises/Positioning demo/index.html"</a>Check it out!</button>
 
 
       </div>
@@ -91,8 +92,9 @@
         <img scr=""
         <p id="e4">
           Exercise is about postioning JQuery!
+
+            <button class="link"><a href="Exercises/JQuery/index.html"</a>Check it out!</button>
         </p>
-        <button class="link"><a href="Exercises/JQuery/index.html"</a>Check it out!</button>
 
 
       </div>
@@ -104,7 +106,7 @@
             Exercise four is about praticing with HoverStates!
 
           </p>
-<button class="link"><a href="Exercises/HoverStates/Pratice1.html"</a></button>
+<button class="link"><a href="Exercises/HoverStates/Pratice1.html"</a>Check it out!</button>
 
   </div>
 
@@ -124,6 +126,22 @@
   </div>
 
 </div>
+<div class="P-cointainer">
+  <div class="P-About">
+    <p id="Poem">
+
+<button class="link"><a href="PoemLevel.html"</a>Check it out!</button>
+    </p>
+
+    <p id="Mircosite">
+
+     </p>
+    <p id="Catalog">
+
+
+    </p>
+
+</div>
 
 
 <audio id='suara1' src='Catalog/audio/Pump-Shotgun.mp3'></audio>
@@ -135,16 +153,31 @@
 
   $(".toggle1" ).click(function() {
     $( ".cointainer-two" ).toggle( "slow" );
+     $(".cointainer-three").hide();
     var audio = document.getElementById('suara1');
     audio.play();
   });
 
   $(".toggle2" ).click(function() {
     $( ".cointainer-three" ).toggle( "slow" );
+    $(".cointainer-two").hide();
     var audio = document.getElementById('audio2');
     audio.play();
   });
 
+  $(".tog1" ).click(function() {
+    $( ".E-About" ).toggle( "slow" );
+    $( "#e1" ).toggle( "slow" );
+    var audio = document.getElementById('audio2');
+    audio.play();
+  });
+
+  $(".tog1" ).click(function() {
+    $( ".E-About" ).toggle( "slow" );
+    $( "#e1" ).toggle( "slow" );
+    var audio = document.getElementById('audio2');
+    audio.play();
+  });
 
 
   </script>

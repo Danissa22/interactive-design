@@ -3,15 +3,12 @@ body{
 }
 
 .container-one{
-  display:flex;
-  flex-direction: column;
+  float:left;
+  margin-top: 30px;
+margin-left:10px;
 }
 
-.navi{
-  display:flex;
-  flex-direction: column;
-  align-self: flex-start;
-}
+
 
 
 
@@ -19,25 +16,25 @@ body{
 .cointainer-two{
   display:none;
   float: left;
-  position: ab
+  margin-bottom: 200px;
+  margin-left:50px;
 }
 
 
 .exercise-colum{
-  margin-top: 0px;
-  margin-bottom: 100px;
-  margin-left:340px;
+    margin-bottom:13px;
+    margin-top:50px;
+
 
 }
 
 .E{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   color: white;
   background: #E65000;
   font-size:30px;
-  align-items:center;
-
+  margin-bottom:13px;
 
 
 }
@@ -50,21 +47,22 @@ body{
 
 
 .cointainer-three{
-  display:flex;
-  flex-direction:column-reverse;
-  position: absolute;
   display:none;
+  float: left;
+  margin-bottom: 320px;
+  margin-left:50px;
+
+
+
 }
 
 
 
 .project-column{
-  display:flex;
-  flex-direction:column;
+
   position:absolute;
-  margin-top: 0px;
-  margin-bottom: 100px;
-  margin-left:340px;
+  margin-top: 100px;
+  margin-bottom: 300px;
 
 }
 
@@ -73,6 +71,8 @@ body{
   height: 90px;
   background: #E65000;
   font-size:30px;
+  padding-bottom:10px;
+
 
 }
 .P:hover{
@@ -90,12 +90,12 @@ body{
         color: white;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 20px;
-        margin: 4px 2px;
+        margin: 0 0 20px 0;
         width: 250px;
         height: 250px;
         border-radius: 15px 15px 15px 15px;
+        display:block;
 
 
     }
@@ -108,10 +108,11 @@ body{
         text-align: center;
         text-decoration: none;
         font-size: 20px;
-        margin: 4px 2px;
+        margin: 0 0 20px 0;
         width: 250px;
         height: 250px;
         border-radius: 15px 15px 15px 15px;
+        display:block;
 
 
     }
@@ -122,12 +123,12 @@ body{
         color: white;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 20px;
-        margin: 4px 2px;
+        margin: 0 0 20px 0;
         width: 250px;
         height: 250px;
         border-radius: 15px 15px 15px 15px;
+        display:block;
 
 
     }
@@ -161,30 +162,39 @@ button{
     button:focus {outline:0;}​
 
 
-.EContent{
+/*.EContent{
   display:flex;
   flex-direction:column;
   flex-flow: column-reverse;
   position:absolute;
   margin-left:400px;
   align-self:flex-end;
+}*/
+
+#EContent{
+  margin-bottom: 320px;
+  margin-right: 0;
+
+
 }
 
 
 
 .E-About{
-
+  display:none;
   position: relative;
+
   width: 200px;
   height: 150px;
   margin: 20px 0;
+  float: right;
   background: #D26707;
   border-radius: 50% / 10%;
   color: white;
   text-align: center;
   text-indent: .1em;
 }
-.E-About:before {
+/*.E-About:before {
   content: '';
   position: absolute;
   top: 10%;
@@ -193,14 +203,17 @@ button{
   left: -5%;
   background: inherit;
   border-radius: 5% / 50%;
-}
+}*/
 
 .link{
   width: 150px;
-	height: 100px;
+	height: 50px;
 	background: #086C7F;
   text-decoration: none;
   text-decoration-style: none;
+  margin-top:12px;
+
+
 }
 
 

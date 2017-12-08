@@ -146,6 +146,7 @@
 
 <audio id='suara1' src='Catalog/audio/Pump-Shotgun.mp3'></audio>
 <audio id='audio2' src='Catalog/audio/TheLegendofZelda.mp3'></audio>
+<audio id='audio3' src='Catalog/audio/Final Fantasy VII- Equip.mp3'></audio>
 
   <script>
 
@@ -168,14 +169,14 @@
   $(".tog1" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
     $( "#e1" ).toggle( "slow" );
-    var audio = document.getElementById('audio2');
+    var audio = document.getElementById('audio3');
     audio.play();
   });
 
-  $(".tog1" ).click(function() {
-    $( ".E-About" ).toggle( "slow" );
-    $( "#e1" ).toggle( "slow" );
-    var audio = document.getElementById('audio2');
+  $(".togP1" ).click(function() {
+    $( ".P-About" ).toggle( "slow" );
+    $( "#Poem" ).toggle( "slow" );
+    var audio = document.getElementById('audio3');
     audio.play();
   });
 

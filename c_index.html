@@ -12,15 +12,19 @@
 
 </head>
 <body>
+
+<div class= "main-container">
+
 <div class="container-one">
 
-<button class="toggle1"><div class="fixed-size">Exercise</div></button>
+<div class="navi">
+<button class="toggle1"onclick='suara1()'><div class="fixed-size">Exercise</div></button>
 <button class="toggle2"><div class="fixed-size">Projects</div></button>
 <button class="toggle3"><div class="fixed-size">
   <a href="https://www.instagram.com/santosdanissa22/">Instagram</a></div></button>
 
 </div>
-
+</div>
 
 
   <div class="cointainer-two">
@@ -44,11 +48,39 @@
 
 <div class="EContent">
 
+  <div class="E1">
+    <img scr=""
+    <p id="e1">
+      Exercise one is about poem sentencer generator
+    </p>
+
+    <div class="E2">
+      <img scr=""
+      <p id="e2">
+        Exercise one is about poem sentencer generator
+      </p>
+
+      <div class="E3">
+        <img scr=""
+        <p id="e3">
+          Exercise one is about poem sentencer generator
+        </p>
+
+      <div class="E3">
+          <img scr=""
+          <p id="e3">
+            Exercise one is about poem sentencer generator
+          </p>
+
+
+  </div>
+
 
 
   </div>
 
   <div class="cointainer-three">
+    <div class="project-column"
 
     <button class="togP1"><div class="P">Poem</div></button>
     <button class="togP2"><div class="P">Mircosite</div></button>
@@ -56,12 +88,10 @@
 
   </div>
 
-  <div class="About">
-  <h3>About</h3>
-  <p>
+</div>
 
-  </p>
-  </div>
+
+<audio id='suara1' src='http://www.freesfx.co.uk/rx2/mp3s/3/3233_1329146192.mp3'></audio>
 
   <script>
 
@@ -69,6 +99,8 @@
 
   $(".toggle1" ).click(function() {
     $( ".cointainer-two" ).toggle( "slow" );
+    var audio = document.getElementById('suara1');
+    audio.play();
   });
 
   $(".toggle2" ).click(function() {

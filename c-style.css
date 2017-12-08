@@ -2,63 +2,36 @@ body{
   background-color:#00547c;
 }
 
-
 .container-one{
-display: flex; /* or inline-flex */
-flex-direction: column;
-flex-wrap: wrap;
-
+  display:flex;
+  flex-direction: column;
 }
 
-.fixed-size{
-  font-size:30px;
-
-}
-
-.fixed-size:hover{
-  color:#F05400;
+.navi{
+  display:flex;
+  flex-direction: column;
+  align-self: flex-start;
 }
 
 .cointainer-two{
-flex-direction:column;
-flex: 0 0 100%;
-margin-left: 260px;
-
-
+  display:flex;
+   align-items: center;
 }
-
-.exercise-column{
-  max-width: 1400px;
-  padding: 20px 0;
-  margin: 40px auto 0 auto;
-  background: #003249;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  margin-bottom:30px;
-}
- .E{
-padding-bottom: 14px;
-font-size:30px;
-
- }
-
-.E:hover{
-  color: #F05400;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-
 .cointainer-three{
-  flex-direction:column;
-  flex: 0 0 100%;
-  margin-left: 260px;
+  display:flex
+}
 
+
+.exercise-colum{
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+
+}
+
+.project-column{
+  display:flex;
+  flex-direction:column;
 }
 
 
@@ -85,7 +58,6 @@ font-size:30px;
         color: white;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 20px;
         margin: 4px 2px;
         width: 250px;
@@ -118,11 +90,7 @@ button{
   height: 100px;
   color: white;
   background: #003249;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 120px;
+  font-size:13px;
 
 
 }
@@ -145,8 +113,12 @@ button{
 
     button:focus {outline:0;}​
 
+a{
+  text-decoration-style: none;
+  text-decoration:none;
+  color: white;
+}
 a:link{
-  color:white;
   text-decoration-style: none;
   text-decoration:none;
 }

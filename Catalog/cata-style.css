@@ -119,11 +119,16 @@ button:focus {outline:0;}​
   margin-left: 120px;
 
 }
+a{
+  text-decoration-style: none;
+  text-decoration:none;
+  color:white;
 
+}
 a:link{
   text-decoration-style: none;
   text-decoration:none;
-  color: #F48100;
+  color: white;
 
 }
 

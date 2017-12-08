@@ -19,9 +19,10 @@ body{
 
 
 .cointainer-two{
-  display:flex;
+  display:none;
   flex-direction:column-reverse;
   position: absolute;
+  display:flex;
 }
 
 
@@ -73,7 +74,7 @@ body{
 }
 
 .P{
-  width: 100px;
+  width: 200px;
   height: 90px;
   background: #E65000;
   font-size:30px;
@@ -82,6 +83,12 @@ body{
 .P:hover{
   color:#003249;
 }
+
+
+
+
+
+
     .toggle1{
       background-color: #003249;
         border: none;
@@ -157,6 +164,50 @@ button{
 
 
     button:focus {outline:0;}​
+
+
+.EContent{
+  display:flex;
+  flex-direction:column;
+  flex-flow: column-reverse;
+  position:absolute;
+  margin-left:400px;
+  align-self:flex-end;
+}
+
+
+
+.E-About{
+
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: 20px 0;
+  background: #D26707;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+.E-About:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+.link{
+  width: 150px;
+	height: 100px;
+	background: #086C7F;
+  text-decoration: none;
+  text-decoration-style: none;
+}
+
 
 a{
   text-decoration-style: none;

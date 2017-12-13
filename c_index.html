@@ -15,7 +15,7 @@
 
 <div class= "Title">
 
-  <div id="Main"><h2>D.S Interactive Design </h2></div>
+  <div id="Main"><h2> D.S's Interactive Design</h2></div>
   <div id="E-Title"></h2> Select a Exercise</h2></div>
   <div id="P-Title"></h2> Select Project</h2></div>
 </div>
@@ -191,6 +191,8 @@ EXERCISES -->
     $( ".cointainer-two" ).toggle( "slow" );
      $(".cointainer-three").hide();
        $( ".P-About" ).hide();
+       $( "#Main" ).hide();
+       $('#E-Title').show('fade');
     var audio = document.getElementById('suara1');
     audio.play();
   });
@@ -199,6 +201,8 @@ EXERCISES -->
     $( ".cointainer-three" ).toggle( "slow" );
     $(".cointainer-two").hide();
     $( ".E-About" ).hide();
+     $('#E-Title').hide();
+     $('#P-Title').show();
     var audio = document.getElementById('audio2');
     audio.play();
   });

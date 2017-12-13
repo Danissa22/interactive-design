@@ -90,25 +90,25 @@
   <div class="P-About">
 
     <div id="Poem">
-<p> This project is about the variations of casting the poem in different ways
+<p id="para-P"> This project is about the variations of casting the poem in different ways
 of coding.</p>
 <button class="link"><a href="PoemLevel.html">Check it out!</a></button>
   </div>
 
     <div id="Mircosite">
-      <p> An PSA event page in adovacting the rights of the Dryad People(Half-Tree/Half-Human)</p>
+      <p id="para-P"> An PSA event page in adovacting the rights of the Dryad People(Half-Tree/Half-Human)</p>
       <button class="link"><a href="Dryad/index.html">Check it out!</a></button>
      </div>
 
      <div id="Republish">
-           <p> Republish a text through social media giving it whole new meaning.</p>
+           <p id="para-P"> Republish a text through social media giving it whole new meaning.</p>
            <button class="link"><a href="c-index.html">Check it out!</a></button>
 
          </div>
 
 
     <div id="Catalog">
-      <p> This whole website. Nothing said, okay! Do you really need to check it out?</p>
+      <p id="para-p"> This whole website. Nothing said, okay! Do you really need to check it out?</p>
       <button class="link"><a href="c-index.html">Check it out!</a></button>
 
     </div>
@@ -126,11 +126,13 @@ EXERCISES -->
 <p> Sentence Generator</p>
 <button class="link"><a href="Exercises/Sentence Generator/sentence_generator2.html">Check it out!</a></button>
   </div>
+  <br>
 
     <div id="E2">
       <p> Starter Kit!</p>
       <button class="link"><a href="Exercises/Starter Kit Poem/index.html">Check it out!</a></button>
      </div>
+
 
     <div id="E3">
       <p> Malevich Boxes</p>
@@ -192,7 +194,8 @@ EXERCISES -->
      $(".cointainer-three").hide();
        $( ".P-About" ).hide();
        $( "#Main" ).hide();
-       $('#E-Title').show('fade');
+       $('#P-Title').hide();
+       $('#E-Title').show("fade");
     var audio = document.getElementById('suara1');
     audio.play();
   });
@@ -202,6 +205,7 @@ EXERCISES -->
     $(".cointainer-two").hide();
     $( ".E-About" ).hide();
      $('#E-Title').hide();
+     $( "#Main" ).hide();
      $('#P-Title').show();
     var audio = document.getElementById('audio2');
     audio.play();
@@ -213,6 +217,7 @@ EXERCISES -->
   $(".togE1" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
     $( "#E1" ).toggle( "slow" );
+    $('#E-Title').hide();
     $("#E9").hide();
     $("#E2").hide();
     $("#E3").hide();
@@ -228,6 +233,7 @@ EXERCISES -->
   $(".togE2" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
     $( "#E2" ).toggle( "slow" );
+     $('#E-Title').hide();
       $("#E1").hide();
       $("#E3").hide();
       $("#E4").hide();
@@ -243,6 +249,7 @@ EXERCISES -->
   $(".togE3" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
     $( "#E3" ).toggle( "slow" );
+    $('#E-Title').hide();
       $("#E1").hide();
       $("#E2").hide();
       $("#E4").hide();
@@ -260,6 +267,7 @@ EXERCISES -->
   $(".togE4" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
     $( "#E4" ).toggle( "slow" );
+    $('#E-Title').hide();
       $("#E1").hide();
       $("#E2").hide();
       $("#E3").hide();
@@ -276,6 +284,7 @@ EXERCISES -->
   $(".togE5" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
     $( "#E5" ).toggle( "slow" );
+    $('#E-Title').hide();
       $("#E1").hide();
       $("#E2").hide();
       $("#E3").hide();
@@ -291,6 +300,7 @@ EXERCISES -->
 
   $(".togE6" ).click(function() {
     $( ".E-About" ).toggle( "slow" );
+         $('#E-Title').hide();
     $( "#E6" ).toggle( "slow" );
       $("#E1").hide();
       $("#E2").hide();
@@ -307,6 +317,7 @@ EXERCISES -->
     $(".togE7" ).click(function() {
       $( ".E-About" ).toggle( "slow" );
       $( "#E7" ).toggle( "slow" );
+           $('#E-Title').hide();
         $("#E1").hide();
         $("#E2").hide();
         $("#E3").hide();
@@ -322,6 +333,7 @@ EXERCISES -->
     $(".togE8" ).click(function() {
       $( ".E-About" ).toggle( "slow" );
       $( "#E8" ).toggle( "slow" );
+           $('#E-Title').hide();
         $("#E1").hide();
         $("#E2").hide();
         $("#E3").hide();
@@ -337,6 +349,7 @@ EXERCISES -->
     $(".togE9" ).click(function() {
       $( ".E-About" ).toggle( "slow" );
       $( "#E9" ).toggle( "slow" );
+           $('#E-Title').hide();
         $("#E1").hide();
         $("#E2").hide();
         $("#E3").hide();

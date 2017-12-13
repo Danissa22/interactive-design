@@ -29,7 +29,7 @@ body{
   display:none;
 }
 #P-Title{
-  margin-left:320px;
+  margin-left:350px;
   text-align:right;
   font-size:70px;
   color:#DDA900;
@@ -227,8 +227,8 @@ button{
   display:none;
   position: relative;
 
-  width: 500px;
-  height: 150px;
+  width: 900px;
+  height: 450px;
   margin: 20px 0;
   float: right;
   background: #D26707;
@@ -327,7 +327,7 @@ button{
 	background: #086C7F;
   text-decoration: none;
   text-decoration-style: none;
-  margin-top:12px;
+  margin-top:300px;
 
 
 }

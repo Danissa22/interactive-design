@@ -125,7 +125,7 @@ EXERCISES -->
     <div id="E1">
 <h1> Sentence Generator</h1>
 
-<p> Random generator</p>
+<p> Random generator with many words. It's like mad libs man!</p>
 <button class="link"><a href="Exercises/Sentence Generator/sentence_generator2.html">Check it out!</a></button>
   </div>
   <br>
@@ -139,7 +139,7 @@ EXERCISES -->
 
     <div id="E3">
       <h1> Malevich Boxes</h1>
-      <p> Boxes. Boxes everywhere. </p>
+      <p> Boxes. Boxes everywhere.</p>
       <button class="link"><a href="Exercises/Malevich_Boxes/index.html">Check it out!</a></button>
 
     </div>
@@ -191,6 +191,7 @@ EXERCISES -->
 <audio id='suara1' src='Catalog/audio/Pump-Shotgun.mp3'></audio>
 <audio id='audio2' src='Catalog/audio/TheLegendofZelda.mp3'></audio>
 <audio id='audio3' src='Catalog/audio/Final Fantasy VII- Equip.mp3'></audio>
+<audio id='audio4' src='Catalog/audio/Final Fantasy VII- Equip.mp3'></audio>
 
   <script>
 
@@ -218,7 +219,10 @@ EXERCISES -->
     audio.play();
   });
 
-
+  $(".E").mouseenter(function() {
+    var audio = document.getElementById('audio4');
+  audio.play();
+    });
 
   // Exercises
   $(".togE1" ).click(function() {

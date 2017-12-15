@@ -205,15 +205,21 @@ EXERCISES -->
 
 <audio id='audio1' src='Catalog/audio/Pump-Shotgun.mp3'></audio>
 <audio id='audio2' src='Catalog/audio/TheLegendofZelda.mp3'></audio>
-<audio id='audio3' src='Catalog/audio/konami.mp3'></audio>
+<audio id='audio3' src='Catalog/audio/item-drop-gemshop.mp3'></audio>
 <audio id='audio4' src='Catalog/audio/Final Fantasy VII- Equip.mp3'></audio>
 <audio id='audio5' src='Catalog/audio/achievement-unlocked.mp3'></audio>
 <audio id='audio6' src='Catalog/audio/castlevania-item.mp3'></audio>
 <audio id='audio7' src='Catalog/audio/nintendo-switch.mp3'></audio>
 <audio id='audio8' src='Catalog/audio/ps-trophy.mp3'></audio>
+<audio id="my_audio" src="" loop="loop"></audio>
 
   <script>
 
+
+  $(document).ready(function() {
+      $("#my_audio").get(0).play();
+      document.getElementById("my_audio").play();
+  });
 
 
   $(".toggle1" ).click(function() {

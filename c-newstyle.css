@@ -228,7 +228,7 @@ button{
   position: relative;
 
   width: 900px;
-  height: 450px;
+  height: 550px;
   margin: 20px 0;
   float: right;
   background: #D26707;
@@ -327,12 +327,20 @@ button{
 	background: #086C7F;
   text-decoration: none;
   text-decoration-style: none;
-  margin-top:150px;
+  margin-top:50px;
   font-weight:bold;
-
 
 }
 
+.link:hover{
+
+}
+
+img{
+  height:240px;
+  width:400px;
+  margin-top:10px;
+}
 
 a{
   text-decoration-style: none;

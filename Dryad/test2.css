@@ -4,6 +4,8 @@ body{
    background-position:right;
 
 }
+
+
  body:onload{
 
  }
@@ -12,6 +14,8 @@ body{
 span{
   cursor: cell;
 }
+
+
 
 
 .content1 {
@@ -506,4 +510,12 @@ h3{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+}
+.ground{
+
+  width: 900px;
+	height: 100px;
+  background:#946430;
+  margin-top:400px;
+  position:fixed;
 }

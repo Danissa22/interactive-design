@@ -28,6 +28,7 @@ body{
   color:#DDA900;
   font-family:sans-serif;
   display:none;
+
 }
 #P-Title{
   margin-left:350px;
@@ -36,6 +37,8 @@ body{
   color:#DDA900;
   font-family:sans-serif;
   display:none;
+  animation-duration: 4s;
+
 }
 
 

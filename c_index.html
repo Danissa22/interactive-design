@@ -160,25 +160,28 @@ EXERCISES -->
 
     <div id="E6">
       <h1> HoverStates</h1>
+      <p> Something changes when your cursor hovers over something</p>
       <button class="link"><a href="Exercises/HoverStates/Pratice1.html">Check it out!</a></button>
 
     </div>
     <div id="E7">
       <h1> Responsive Page!</h1>
-
+      <p> Scaling the page that reacts </p>
       <button class="link"><a href="Exercises/responsive page/starter kit/Exercise-7.html">Check it out!</a></button>
 
     </div>
 
         <div id="E8">
           <h1> Flex Grids</h1>
+          <p> My guide in making guides. </p>
           <button class="link"><a href="Exercises/FlexGrids/index.html">Check it out!</a></button>
 
         </div>
 
       <div id="E9">
         <h1> Exercise 9?</h1>
-        <button class="link"><a href="Exercises/Exercise9/index.html">Check it out!</a></button>
+        <p> Now making guides....which leads to my final project here.</p>
+        <button class="link"><a href="Exercises/Exercise9/pic-index.html">Check it out!</a></button>
 
       </div>
 </div>
@@ -193,6 +196,7 @@ EXERCISES -->
 <audio id='audio3' src='Catalog/audio/konami.mp3'></audio>
 <audio id='audio4' src='Catalog/audio/Final Fantasy VII- Equip.mp3'></audio>
 <audio id='audio5' src='Catalog/audio/achievement-unlocked.mp3'></audio>
+<audio id='audio6' src='Catalog/audio/castlevania-item.mp3'></audio>
 
   <script>
 
@@ -208,6 +212,8 @@ EXERCISES -->
     var audio = document.getElementById('audio1');
     audio.play();
   });
+
+
 
   $(".toggle2" ).click(function() {
     $( ".cointainer-three" ).toggle( "slow" );
@@ -232,6 +238,12 @@ EXERCISES -->
     var audio = document.getElementById('audio4');
   audio.play();
     });
+
+    $(".P").mouseenter(function() {
+      var audio = document.getElementById('audio6');
+    audio.play();
+      });
+
 
   // Exercises
   $(".togE1" ).click(function() {

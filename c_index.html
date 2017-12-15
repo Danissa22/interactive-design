@@ -28,9 +28,9 @@
 <div class="container-one">
 
 
-<button class="toggle1"onclick='suara1()'><div class="fixed-size">Exercise</button>
+<button class="toggle1"onclick='audio1()'><div class="fixed-size">Exercise</button>
 <button class="toggle2" onclick='audio2()'><div class="fixed-size">Projects</div></button>
-<button class="toggle3"><div class="fixed-size">
+<button class="toggle3"onclick="audio5()"><div class="fixed-size">
   <a href="https://www.instagram.com/santosdanissa22/">Instagram</a></div></button>
 
 </div>
@@ -102,7 +102,7 @@ of coding.</p>
 
      <div id="Republish">
            <p id="para-P"> Republish a text through social media giving it whole new meaning.</p>
-           <button class="link"><a href="c-index.html">Check it out!</a></button>
+           <button class="link"><a href="https://twitter.com/SantosDanissa">Check it out!</a></button>
 
          </div>
 
@@ -188,10 +188,11 @@ EXERCISES -->
 
 
 
-<audio id='suara1' src='Catalog/audio/Pump-Shotgun.mp3'></audio>
+<audio id='audio1' src='Catalog/audio/Pump-Shotgun.mp3'></audio>
 <audio id='audio2' src='Catalog/audio/TheLegendofZelda.mp3'></audio>
-<audio id='audio3' src='Catalog/audio/Final Fantasy VII- Equip.mp3'></audio>
+<audio id='audio3' src='Catalog/audio/konami.mp3'></audio>
 <audio id='audio4' src='Catalog/audio/Final Fantasy VII- Equip.mp3'></audio>
+<audio id='audio5' src='Catalog/audio/achievement-unlocked.mp3'></audio>
 
   <script>
 
@@ -204,7 +205,7 @@ EXERCISES -->
        $( "#Main" ).hide();
        $('#P-Title').hide();
        $('#E-Title').show("fade");
-    var audio = document.getElementById('suara1');
+    var audio = document.getElementById('audio1');
     audio.play();
   });
 
@@ -218,6 +219,14 @@ EXERCISES -->
     var audio = document.getElementById('audio2');
     audio.play();
   });
+
+  $(".toggle3" ).click(function() {
+    var audio = document.getElementById('audio5');
+    audio.play();
+  });
+
+
+
 
   $(".E").mouseenter(function() {
     var audio = document.getElementById('audio4');
